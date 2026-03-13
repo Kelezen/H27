@@ -1,0 +1,39 @@
+body{
+ margin:0;
+ font-family:sans-serif;
+}
+
+.rootElement{
+ width:200px;
+ height:300px;
+ overflow:hidden;
+ position:relative;
+ margin:20px auto;
+ border:2px solid black;
+}
+
+.moveContainer{
+ display:flex;
+ position:relative;
+ left:0;
+ transition:0.4s;
+}
+
+.moveContainer img{
+ width:200px;
+ height:300px;
+ object-fit:cover;
+}
+
+.circle{
+ width:10px;
+ height:10px;
+ border-radius:50%;
+ background:gray;
+ display:inline-block;
+ margin:5px;
+}
+
+.circleActive{
+ background:black;
+}
